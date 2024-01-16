@@ -1,0 +1,124 @@
+body{
+    background-color:black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.cv{
+    position: absolute;
+    top:40px;
+    left:50px;
+    background-color:black;
+    width:500px;
+    height:50px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.as{
+    position: absolute;
+    top:12px;
+    left:850px;
+    width:100px;
+    height:30px;
+    background-color: rgb(180, 9, 210);
+    color:white;
+    border-radius: 10px;
+    border-style: initial;
+    cursor: pointer;
+}
+img{
+    height:450px;
+    width:750px;
+    position: absolute;
+    top:536%;
+    left:140%;
+    transform: translateX(-50%) translateY(-50%);
+}
+h1{
+    position: absolute;
+    top:130px;
+    left:75px;
+    font-size:50px;
+    background:linear-gradient(90deg,#00ffff,#ff00c3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+span{
+    color:rgb(180, 9, 210);
+}
+h3{
+    position: absolute;
+    top:205px;
+    left:75px;
+    font-size: 25px;
+    color:white
+}
+p{
+    color:white;
+    position: absolute;
+    top:257px;
+    left:75px;
+    text-decoration: wavy;
+    font-size: 15px;
+}
+.mn{
+    position: absolute;
+    top:340px;
+    left:75px;
+    width:100px;
+    height:40px;
+    background-color: rgb(180, 9, 210);
+    color:white;
+    border-radius: 10px;
+    border-style: initial;
+    cursor: pointer;
+}
+.nm{
+    position: absolute;
+    top:340px;
+    left:200px;
+    width:100px;
+    height:40px;
+    background-color:black;
+    color:rgb(180, 9, 210);
+    border-radius: 10px;
+    border-style:double;
+    border-color: rgb(180, 9, 210);
+    cursor: pointer;
+}
+.cls1{
+    width:35px;
+    height: 35px;
+    position: absolute;
+    top:455px;
+    left:110px;
+    box-shadow: 0 0 5px cyan,
+    0 0 10px cyan;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cls2{
+    height: 35px;
+    width:35px;
+    position: absolute;
+    top:455px;
+    left:200px;
+    box-shadow: 0 0 5px cyan,
+    0 0 10px cyan;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cls3{
+    height: 35px;
+    width:35px;
+    position: absolute;
+    top:455px;
+    left:290px;
+    box-shadow: 0 0 5px cyan,
+    0 0 10px cyan;
+    border-radius: 10px;
+    cursor: pointer;
+}
